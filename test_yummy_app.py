@@ -1,4 +1,5 @@
 import unittest
+from unittest.mock import patch
 from yummy_app import YummyApp
 import gps_service
 
