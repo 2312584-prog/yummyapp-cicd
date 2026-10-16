@@ -31,8 +31,6 @@ if __name__ == '__main__':
     #Bổ sung
 class TestMediumLevel(unittest.TestCase):
     """Kiem thu chuc nang apply_promo_code"""
-
-
     def test_apply_promo_code_success(self):
         app = YummyApp(network_status="online", os_version=15)
         result = app.apply_promo_code(100000, "GIAM10")
